@@ -29,6 +29,7 @@
         display: flex;
         justify-content: space-between;
         font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
 
         @media screen and (max-width: 1200px) {
             font-size: 24px;
@@ -42,13 +43,14 @@
         .name {
             width: 90%;
             margin-bottom: 15px;
-            font-weight: bold;
+            font-weight: 300;
             letter-spacing: 0.04rem;
         }
 
         .price {
             width: 10%;
             text-align: right;
+            font-weight: 600;
         }
     }
 }
